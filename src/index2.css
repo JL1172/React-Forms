@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  #card {
+    border : 2px solid lightgray;
+    background-color : white;
+    min-height: 20rem;
+    max-height: fit-content;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .completed {
+    color : red;
+    text-decoration: line-through;
+  }
+  .completed::before {
+    content : "✔";
+  }
+  
+  #background {
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #form {
+    margin-bottom: 2rem;
+  }
+  .add {
+    background-color: transparent;
+    height : 30px;
+    margin-right: 1rem;
+    min-width: 50px;
+    max-width: fit-content;
+    text-align: center;
+    box-shadow: none;
+    border : none;
+    outline: 2px solid lightblue;
+    border-radius: 5px;
+  }
+  .add:active {
+    background-color: lightblue;
+  }
+  #form > input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid lightblue;
+    font-size : 20px;
+    width  : 10rem;
+  }
+  #form >input:focus {
+    outline : none;
+  }
+  #form >input:active {
+    outline : none;
+    color : lightblue;
+  }
+  #img {
+    align-self: flex-start;
+    position: absolute;
+    left : 1rem;
+    top : 1rem;
+  }
+  #img:active {
+    transform: rotate(360deg);
+    transition: .3s ease-in-out;
+  }
+  #settings {
+    align-self: flex-start;
+    position: absolute;
+    left : 2rem;
+    top : 2rem;
+  }
+  .chosen {
+    display : flex;
+    flex-direction: column;
+    align-self: flex-end;
+    position: relative;
+    left : 1rem;
+    top : 1rem;
+  }
+  .not {
+    display: none;
+  }
+  #aF {
+    display: flex;
+    flex-direction: column;
+  }
+  .labelContainers {
+    display: flex;
+  }
+  .contained {
+    display: flex;
+  }
+  .color {
+    border: none;
+    background-color : transparent;
+  }
+  .contained>select {
+    margin-bottom: 1rem;
+    appearance: none;
+    height : 25px;
+    border: none;
+    outline: 2px solid lightblue;
+    color : lightslategrey;
+  }
+  .containedBox {
+    display: flex;
+    flex-direction: column;
+  }
