@@ -2,6 +2,9 @@
 
 Welcome to the **Form Management Project**! This project is designed to demonstrate various form management techniques, including the reducing pattern, advanced state management, and local data persistence. By integrating technologies such as `localStorage`, custom hooks, `reactstrap`, `styled-components`, `axios` for making POST requests (to display user info), `yup` for form validation, and `react-router` for navigation, this project provides a comprehensive example of form handling in a React application. Additionally, I added a todo list application and its state is managed by React-Redux. Additionally, there is a settings mode in the todo list application that can manage the background color and general styling of the application. The entirety of this application is a work in progress, therefore I will be adding as I go along.
 
+> [!NOTE]
+> This is an updated repo from one that was having problems with compiling.
+
 ## Table of Contents
 
 - [Features](#features)
